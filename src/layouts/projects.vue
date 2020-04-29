@@ -3,9 +3,10 @@
     <section class="project">
       <div class="slideshow-container">
         <nc-news />
+        <rick-and-morty />
         <jupiter-landing />
-        <job-listings />
         <easybank />
+        <job-listings />
         <pricing-component />
         <cryptovox />
         <a class="prev" @click="plusSlides(-1)">&#10094;</a>
@@ -19,17 +20,19 @@
         <span class="dot" @click="currentSlide(4)"></span>
         <span class="dot" @click="currentSlide(5)"></span>
         <span class="dot" @click="currentSlide(6)"></span>
+        <span class="dot" @click="currentSlide(7)"></span>
       </div>
     </section>
   </div>
 </template>
 <script>
-import NcNews from '../components/nc-news';
-import JupiterLanding from '../components/jupiter-landing';
-import Easybank from '../components/easybank';
-import Cryptovox from '../components/cryptovox';
-import PricingComponent from '../components/pricing-component';
-import JobListings from '../components/job-listings';
+import NcNews from "../components/nc-news";
+import JupiterLanding from "../components/jupiter-landing";
+import Easybank from "../components/easybank";
+import Cryptovox from "../components/cryptovox";
+import PricingComponent from "../components/pricing-component";
+import JobListings from "../components/job-listings";
+import RickAndMorty from "../components/rick-and-morty";
 
 export default {
   components: {
@@ -39,18 +42,19 @@ export default {
     Cryptovox,
     PricingComponent,
     JobListings,
+    RickAndMorty
   },
   data() {
     return {
-      slideIndex: 1,
+      slideIndex: 1
     };
   },
   mounted() {
-    let slides = document.getElementsByClassName('mySlides');
-    let dots = document.getElementsByClassName('dot');
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
 
-    slides[this.slideIndex - 1].style.display = 'block';
-    dots[this.slideIndex - 1].className += ' active';
+    slides[this.slideIndex - 1].style.display = "block";
+    dots[this.slideIndex - 1].className += " active";
   },
   methods: {
     plusSlides(n) {
@@ -60,8 +64,8 @@ export default {
       this.showSlides((this.slideIndex = n));
     },
     showSlides(n) {
-      let slides = document.getElementsByClassName('mySlides');
-      let dots = document.getElementsByClassName('dot');
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
 
       if (n > slides.length) {
         this.slideIndex = 1;
@@ -70,14 +74,14 @@ export default {
         this.slideIndex = slides.length;
       }
       for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = 'none';
+        slides[i].style.display = "none";
       }
       for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(' active', '');
+        dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[this.slideIndex - 1].style.display = 'block';
-      dots[this.slideIndex - 1].className += ' active';
-    },
-  },
+      slides[this.slideIndex - 1].style.display = "block";
+      dots[this.slideIndex - 1].className += " active";
+    }
+  }
 };
 </script>
