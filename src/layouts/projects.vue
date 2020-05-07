@@ -3,6 +3,7 @@
     <section class="project">
       <div class="slideshow-container">
         <nc-news />
+        <rest-countries />
         <rick-and-morty />
         <jupiter-landing />
         <easybank />
@@ -21,6 +22,7 @@
         <span class="dot" @click="currentSlide(5)"></span>
         <span class="dot" @click="currentSlide(6)"></span>
         <span class="dot" @click="currentSlide(7)"></span>
+        <span class="dot" @click="currentSlide(8)"></span>
       </div>
     </section>
   </div>
@@ -33,6 +35,7 @@ import Cryptovox from "../components/cryptovox";
 import PricingComponent from "../components/pricing-component";
 import JobListings from "../components/job-listings";
 import RickAndMorty from "../components/rick-and-morty";
+import RestCountries from "../components/rest-countries";
 
 export default {
   components: {
@@ -42,7 +45,8 @@ export default {
     Cryptovox,
     PricingComponent,
     JobListings,
-    RickAndMorty
+    RickAndMorty,
+    RestCountries
   },
   data() {
     return {
