@@ -28,15 +28,15 @@
         </p>
 
         <p>
-          Music is a main interest of mine, and I often go to gigs, with a
-          couple of festivals lined up this year. I’ve been playing guitar for
+          Music is a main interest of mine, and I often go to gigs and festivals. I’ve been playing guitar for
           14 years and am currently involved in a couple of bands, which has led
           to performing in pubs and clubs around Manchester. As well as this,
           i've also created our
-          <a href="https://jupiterlanding.netlify.com/" target="_blank"
-            >bands site</a
-          >
-          too. I'm also an avid Man United fan and will go and watch them a lot
+          <a
+            href="https://jupiterlanding.netlify.com/"
+            target="_blank"
+          >bands site</a>
+          too. I'm also an avid Man United fan and will go and watch them
           when they play at home.
         </p>
       </div>
