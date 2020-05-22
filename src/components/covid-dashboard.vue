@@ -8,7 +8,7 @@
       <a
         href="https://covid-stats-dashboard.netlify.app/#/"
         target="_blank"
-      >Covid-19 stats dashboard</a>
+      >Covid-19 Stats Dashboard</a>
       <br />
       <a href="https://github.com/WillemTaylor/Covid19-stats-dashboard" target="_blank">Github</a>
     </div>
