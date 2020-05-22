@@ -9,6 +9,7 @@
         <easybank />
         <job-listings />
         <pricing-component />
+        <covid-dashboard />
         <cryptovox />
         <a class="prev" @click="plusSlides(-1)">&#10094;</a>
         <a class="next" @click="plusSlides(1)">&#10095;</a>
@@ -23,6 +24,7 @@
         <span class="dot" @click="currentSlide(6)"></span>
         <span class="dot" @click="currentSlide(7)"></span>
         <span class="dot" @click="currentSlide(8)"></span>
+        <span class="dot" @click="currentSlide(9)"></span>
       </div>
     </section>
   </div>
@@ -36,6 +38,7 @@ import PricingComponent from "../components/pricing-component";
 import JobListings from "../components/job-listings";
 import RickAndMorty from "../components/rick-and-morty";
 import RestCountries from "../components/rest-countries";
+import CovidDashboard from "../components/covid-dashboard";
 
 export default {
   components: {
@@ -46,7 +49,8 @@ export default {
     PricingComponent,
     JobListings,
     RickAndMorty,
-    RestCountries
+    RestCountries,
+    CovidDashboard
   },
   data() {
     return {
