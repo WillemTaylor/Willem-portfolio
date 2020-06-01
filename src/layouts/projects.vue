@@ -4,6 +4,7 @@
       <div class="slideshow-container">
         <nc-news />
         <rest-countries />
+        <rock-paper-scissors />
         <rick-and-morty />
         <jupiter-landing />
         <easybank />
@@ -25,6 +26,7 @@
         <span class="dot" @click="currentSlide(7)"></span>
         <span class="dot" @click="currentSlide(8)"></span>
         <span class="dot" @click="currentSlide(9)"></span>
+        <span class="dot" @click="currentSlide(10)"></span>
       </div>
     </section>
   </div>
@@ -39,6 +41,7 @@ import JobListings from "../components/job-listings";
 import RickAndMorty from "../components/rick-and-morty";
 import RestCountries from "../components/rest-countries";
 import CovidDashboard from "../components/covid-dashboard";
+import RockPaperScissors from "../components/rock-paper-scissors";
 
 export default {
   components: {
@@ -50,7 +53,8 @@ export default {
     JobListings,
     RickAndMorty,
     RestCountries,
-    CovidDashboard
+    CovidDashboard,
+    RockPaperScissors
   },
   data() {
     return {
