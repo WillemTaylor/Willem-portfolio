@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="contact">
     <section class="contact">
       <div class="thanks" v-if="loading">
         <h1>Thanks! I've got your message and will get back to you soon.</h1>

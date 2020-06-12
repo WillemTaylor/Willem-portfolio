@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="social">
     <footer class="footer">
       <div class="social-container">
         <a :href="fb" target="_blank">
