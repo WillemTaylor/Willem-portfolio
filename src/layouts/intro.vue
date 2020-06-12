@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div>
     <div class="parallax0"></div>
     <header class="img-container">
       <img src="../assets/will_logo.png" />

@@ -1,10 +1,8 @@
 <template>
-  <div id="experience">
+  <div>
     <section class="about">
       <div>
-        <h1>
-          In my current role at Ocean Finance, my responsibilities include:
-        </h1>
+        <h1>In my current role at Ocean Finance, my responsibilities include:</h1>
         <ul>
           <li>
             Building the front end of web based applications using the latest
@@ -31,7 +29,7 @@
           <li>Assisting in investigating and resolving web/software bugs</li>
         </ul>
 
-        <p style="margin-top: 50px;">
+        <p>
           Before this, I enrolled onto a 12 week Full-stack coding bootcamp
           (Northcoder's). Before this course, I was learning to code online via
           Code Academy, Free code camp, Codewars, etc. Northcoder's is where I

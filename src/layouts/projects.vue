@@ -1,14 +1,14 @@
 <template>
-  <div id="projects">
+  <div>
     <section class="project">
       <div class="slideshow-container">
-        <nc-news />
         <rest-countries />
+        <nc-news />
         <rock-paper-scissors />
         <rick-and-morty />
-        <jupiter-landing />
-        <easybank />
         <job-listings />
+        <easybank />
+        <jupiter-landing />
         <pricing-component />
         <covid-dashboard />
         <cryptovox />
