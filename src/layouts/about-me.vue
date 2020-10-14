@@ -2,24 +2,10 @@
   <div id="about">
     <section class="about">
       <div>
-        <h1>
-          Hi there! I'm Willem, and I'm a front-end developer based in
-          Manchester.
-        </h1>
+        <h1>I'm a hard working developer who is highly motivated, creative, relaiable and can work well independently or as part of a team.</h1>
+
         <p>
-          <b>Languages:</b> JavaScript, Python, HTML, CSS
-          <br />
-          <b>Back End:</b> NodeJS, Express, Flask, SQL
-          <br />
-          <b>Frameworks:</b> Vue.js, React.js, UX
-          <br />
-          <b>Testing:</b> Jest, Cypress, Chai, Mocha, Sinon, Pytest, Tavern
-          <br />
-          <b>Adobe suite:</b> Photoshop, Premiere Pro
-        </p>
-        <p>
-          I'm a hard working developer who is highly motivated, creative,
-          reliable and who can work well independently or as part of a team. My
+          My
           current role in Ocean Finance has given valuable experience of
           delivering industry leading web applications in an E-Commerce
           environment, as well as carrying out projects to strict deadlines,
@@ -28,15 +14,23 @@
         </p>
 
         <p>
-          Music is a main interest of mine, and I often go to gigs and festivals. I’ve been playing guitar for
-          14 years and am currently involved in a couple of bands, which has led
-          to performing in pubs and clubs around Manchester. As well as this,
-          i've also created our
-          <a
-            href="https://jupiterlanding.netlify.com/"
-            target="_blank"
-          >bands site</a>
-          too. I'm also an avid Man United fan and will go and watch them
+          <b>Languages:</b> JavaScript, HTML, CSS
+          <br />
+          <b>Back-End:</b> .Net C# NodeJS, Express.js, SQL
+          <br />
+          <b>Front-end:</b> Vue.js, React.js, SASS, UX
+          <br />
+          <b>Testing:</b> Jest, Cypress, Chai, Mocha, Sinon
+          <br />
+          <b>Control:</b>
+          Azure DevOps, Octopus, Git, Sourcetree
+          <br />
+          <b>Adobe suite:</b> Photoshop
+        </p>
+
+        <p>
+          Music is a main interest of mine, and I often go to gigs and festivals. I’ve been playing guitar since I was 11 years old, and am currently involved in a couple of bands, which has led
+          to performing in pubs and clubs around Manchester. I'm also a huge Man United fan and will go and watch them
           when they play at home.
         </p>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mySlides fade">
+  <div class="expSlides fade">
     <div class="proj-img-container">
       <img src="../assets/nc_news_desktop.png" class="portfolio-img mobile-hide-v2" />
       <img src="../assets/nc_news_mobile.png" class="portfolio-img desktop-hide-v2" />

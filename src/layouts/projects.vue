@@ -3,15 +3,12 @@
     <section class="project">
       <div class="slideshow-container">
         <rest-countries />
-        <nc-news />
         <rock-paper-scissors />
         <rick-and-morty />
         <job-listings />
         <easybank />
         <jupiter-landing />
         <pricing-component />
-        <covid-dashboard />
-        <cryptovox />
         <a class="prev" @click="plusSlides(-1)">&#10094;</a>
         <a class="next" @click="plusSlides(1)">&#10095;</a>
       </div>
@@ -25,8 +22,6 @@
         <span class="dot" @click="currentSlide(6)"></span>
         <span class="dot" @click="currentSlide(7)"></span>
         <span class="dot" @click="currentSlide(8)"></span>
-        <span class="dot" @click="currentSlide(9)"></span>
-        <span class="dot" @click="currentSlide(10)"></span>
       </div>
     </section>
   </div>
@@ -35,12 +30,10 @@
 import NcNews from "../components/nc-news";
 import JupiterLanding from "../components/jupiter-landing";
 import Easybank from "../components/easybank";
-import Cryptovox from "../components/cryptovox";
 import PricingComponent from "../components/pricing-component";
 import JobListings from "../components/job-listings";
 import RickAndMorty from "../components/rick-and-morty";
 import RestCountries from "../components/rest-countries";
-import CovidDashboard from "../components/covid-dashboard";
 import RockPaperScissors from "../components/rock-paper-scissors";
 
 export default {
@@ -48,12 +41,10 @@ export default {
     NcNews,
     JupiterLanding,
     Easybank,
-    Cryptovox,
     PricingComponent,
     JobListings,
     RickAndMorty,
     RestCountries,
-    CovidDashboard,
     RockPaperScissors
   },
   data() {

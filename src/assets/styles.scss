@@ -24,6 +24,7 @@ h1,
 h2 {
   margin: 0 auto;
   word-spacing: 0.2rem;
+  font-size: 1.6em;
 
   @media only screen and (max-width: $desktop) {
     font-size: 1em;
@@ -212,7 +213,6 @@ h2 {
           padding: 0 20px;
           position: relative;
           text-decoration: none;
-          font-size: 1.2em;
         }
         &:hover {
           color: #8d8b8b;
@@ -277,7 +277,7 @@ h2 {
     text-align: center;
 
     @media only screen and (min-width: $desktop) {
-      max-width: 400px;
+      max-width: 350px;
     }
   }
 
@@ -321,11 +321,10 @@ h2 {
   }
 
   h1 {
-    font-size: 1.3em;
     margin-bottom: 80px;
 
-    @media only screen and (min-width: $desktop) {
-      font-size: 1.7em;
+    @media only screen and (max-width: $desktop) {
+      font-size: 1.3em;
     }
   }
 
@@ -333,10 +332,6 @@ h2 {
     z-index: 1;
     margin: 40px 0;
     line-height: 1.6;
-
-    @media only screen and (min-width: $desktop) {
-      font-size: 1.1em;
-    }
 
     a {
       color: #2c3e50;
@@ -346,10 +341,6 @@ h2 {
   ul {
     list-style: none;
     padding: 0;
-
-    @media only screen and (min-width: $desktop) {
-      font-size: 1.1em;
-    }
 
     li {
       margin: 5px 0;
@@ -383,11 +374,12 @@ h2 {
   background: #e6e6e6;
 
   .slideshow-container {
-    .mySlides {
+    .mySlides,
+    .expSlides {
       display: none;
 
       .proj-img-container {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         overflow: hidden;
 
@@ -402,7 +394,7 @@ h2 {
 
           @media only screen and (min-width: $desktop) {
             width: auto;
-            height: 720px;
+            height: 500px;
             margin-bottom: 95px;
           }
         }
@@ -415,12 +407,11 @@ h2 {
         font-size: 1em;
         left: 0;
         right: 0;
-        padding: 0 45px;
+        // padding: 0 45px;
         transition: 0.5s ease;
 
         @media only screen and (min-width: $desktop) {
           padding: 0 200px;
-          font-size: 1.2em;
           bottom: 40px;
         }
 
