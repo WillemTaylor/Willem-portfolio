@@ -1,8 +1,10 @@
 <template>
   <div>
     <div class="proj-img-container">
-      <img src="../assets/images/nc_news_desktop.png" class="portfolio-img mobile-hide-v2" />
-      <img src="../assets/images/nc_news_mobile.png" class="portfolio-img desktop-hide-v2" />
+      <a href="https://www-nc-news1-co-uk.netlify.com/" target="_blank">
+        <img src="../assets/images/nc_news_desktop.png" class="portfolio-img mobile-hide-v2" />
+        <img src="../assets/images/nc_news_mobile.png" class="portfolio-img desktop-hide-v2" />
+      </a>
     </div>
     <div class="text">
       <a href="https://www-nc-news1-co-uk.netlify.com/" target="_blank">NC News</a>

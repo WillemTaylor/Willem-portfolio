@@ -1,8 +1,13 @@
 <template>
   <div class="oceanSlides fade">
     <div class="proj-img-container">
-      <img src="../assets/images/secured-loan_desktop.png" class="portfolio-img mobile-hide-v2" />
-      <img src="../assets/images/secured-loan_mobile.png" class="portfolio-img desktop-hide-v2" />
+      <a
+        href="https://www.oceanfinance.co.uk/secured-loan-a#/form/residential-status"
+        target="_blank"
+      >
+        <img src="../assets/images/secured-loan_desktop.png" class="portfolio-img mobile-hide-v2" />
+        <img src="../assets/images/secured-loan_mobile.png" class="portfolio-img desktop-hide-v2" />
+      </a>
     </div>
     <div class="text">
       <a

@@ -246,18 +246,37 @@ h2 {
   }
 }
 
-.parallax0 {
-  background-image: url('./images/parallax.jpg');
+.parallax0,
+.parallax1,
+.parallax2 {
   height: 100vh;
   max-width: 100%;
+  min-height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fadein 5s;
+  background-size: cover;
 
   @media only screen and (max-width: $mobile) {
     background-attachment: scroll;
   }
+}
+
+.parallax0 {
+  background-image: url('./images/parallax.jpg');
+  animation: fadein 5s;
+}
+
+.parallax1 {
+  background-image: url('./images/parallax_1.jpg');
+  filter: brightness(60%);
+  overflow: hidden;
+}
+
+.parallax2 {
+  background-image: url('./images/northcoders1.jpg');
+  filter: brightness(60%);
+  overflow: hidden;
 }
 
 .img-container {
@@ -349,40 +368,6 @@ h2 {
         content: '- ';
       }
     }
-  }
-}
-
-.parallax1 {
-  background-image: url('./images/parallax_1.jpg');
-  height: 100vh;
-  max-width: 100%;
-  min-height: 100%;
-  filter: brightness(60%);
-  overflow: hidden;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  @media only screen and (max-width: $mobile) {
-    background-attachment: scroll;
-  }
-}
-
-.parallax2 {
-  background-image: url('./images/northcoders1.jpg');
-  height: 100vh;
-  max-width: 100%;
-  min-height: 100%;
-  filter: brightness(60%);
-  overflow: hidden;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  @media only screen and (max-width: $mobile) {
-    background-attachment: scroll;
   }
 }
 

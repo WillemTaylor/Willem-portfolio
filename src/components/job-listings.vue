@@ -1,8 +1,10 @@
 <template>
   <div class="mySlides fade">
     <div class="proj-img-container">
-      <img src="../assets/images/job_listings_desktop.png" class="portfolio-img mobile-hide-v2" />
-      <img src="../assets/images/job_listings_mobile.png" class="portfolio-img desktop-hide-v2" />
+      <a href="https://job-listings.netlify.app/" target="_blank">
+        <img src="../assets/images/job_listings_desktop.png" class="portfolio-img mobile-hide-v2" />
+        <img src="../assets/images/job_listings_mobile.png" class="portfolio-img desktop-hide-v2" />
+      </a>
     </div>
     <div class="text">
       <a href="https://job-listings.netlify.app/" target="_blank">Job Listings</a>
