@@ -1,5 +1,5 @@
 <template>
-  <div id="projects">
+  <div id="personal-projects">
     <section class="project">
       <div class="slideshow-container">
         <rest-countries />
@@ -21,13 +21,11 @@
         <span class="dot" @click="currentSlide(5)"></span>
         <span class="dot" @click="currentSlide(6)"></span>
         <span class="dot" @click="currentSlide(7)"></span>
-        <span class="dot" @click="currentSlide(8)"></span>
       </div>
     </section>
   </div>
 </template>
 <script>
-import NcNews from "../components/nc-news";
 import JupiterLanding from "../components/jupiter-landing";
 import Easybank from "../components/easybank";
 import PricingComponent from "../components/pricing-component";
@@ -38,7 +36,6 @@ import RockPaperScissors from "../components/rock-paper-scissors";
 
 export default {
   components: {
-    NcNews,
     JupiterLanding,
     Easybank,
     PricingComponent,

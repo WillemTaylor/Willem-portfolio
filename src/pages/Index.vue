@@ -3,32 +3,35 @@
     <Header />
     <Intro />
     <about-me />
-    <Experience />
-    <Projects />
+    <current-role />
+    <previous-role />
+    <personal-projects />
     <Contact />
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from '../layouts/header';
-import Intro from '../layouts/intro';
-import AboutMe from '../layouts/about-me';
-import Experience from '../layouts/experience';
-import Projects from '../layouts/projects';
-import Contact from '../layouts/contact';
-import Footer from '../layouts/footer';
+import Header from "../layouts/header";
+import Intro from "../layouts/intro";
+import AboutMe from "../layouts/about-me";
+import CurrentRole from "../layouts/current-role";
+import PreviousRole from "../layouts/previous-role";
+import PersonalProjects from "../layouts/personal-projects";
+import Contact from "../layouts/contact";
+import Footer from "../layouts/footer";
 
 export default {
-  name: 'Portfolio',
+  name: "Portfolio",
   components: {
     Header,
     Intro,
     AboutMe,
-    Experience,
-    Projects,
+    CurrentRole,
+    PreviousRole,
+    PersonalProjects,
     Contact,
-    Footer,
-  },
+    Footer
+  }
 };
 </script>

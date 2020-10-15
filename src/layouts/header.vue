@@ -17,11 +17,14 @@
           <a v-scroll-to="'#about'">
             <li>About Me</li>
           </a>
-          <a v-scroll-to="'#experience'">
+          <a v-scroll-to="'#current-role'">
             <li>Experience</li>
           </a>
-          <a v-scroll-to="'#projects'">
+          <a v-scroll-to="'#work-projects'">
             <li>Projects</li>
+          </a>
+          <a v-scroll-to="'#personal-projects'">
+            <li>Personal Projects</li>
           </a>
           <a v-scroll-to="'#contact'">
             <li>Contact</li>

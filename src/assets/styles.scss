@@ -247,7 +247,7 @@ h2 {
 }
 
 .parallax0 {
-  background-image: url('./parallax.jpg');
+  background-image: url('./images/parallax.jpg');
   height: 100vh;
   max-width: 100%;
   background-attachment: fixed;
@@ -353,7 +353,24 @@ h2 {
 }
 
 .parallax1 {
-  background-image: url('./parallax_1.jpg');
+  background-image: url('./images/parallax_1.jpg');
+  height: 100vh;
+  max-width: 100%;
+  min-height: 100%;
+  filter: brightness(60%);
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media only screen and (max-width: $mobile) {
+    background-attachment: scroll;
+  }
+}
+
+.parallax2 {
+  background-image: url('./images/northcoders1.jpg');
   height: 100vh;
   max-width: 100%;
   min-height: 100%;
@@ -375,49 +392,51 @@ h2 {
 
   .slideshow-container {
     .mySlides,
-    .expSlides {
+    .oceanSlides {
       display: none;
+    }
 
-      .proj-img-container {
-        width: 70%;
-        margin: 0 auto;
-        overflow: hidden;
+    .proj-img-container {
+      width: 70%;
+      margin: 0 auto;
+      overflow: hidden;
 
-        @media only screen and (min-width: $desktop) {
-          width: 90%;
-        }
-
-        .portfolio-img {
-          filter: brightness(97%);
-          width: 95%;
-          margin: 70px 0 70px 0;
-
-          @media only screen and (min-width: $desktop) {
-            width: auto;
-            height: 500px;
-            margin-bottom: 95px;
-          }
-        }
+      @media only screen and (min-width: $desktop) {
+        width: 90%;
       }
 
-      .text {
-        position: absolute;
-        bottom: 30px;
-        color: black;
-        font-size: 1em;
-        left: 0;
-        right: 0;
-        // padding: 0 45px;
-        transition: 0.5s ease;
+      .portfolio-img {
+        filter: brightness(97%);
+        width: 95%;
+        margin: 70px 0 120px 0;
 
         @media only screen and (min-width: $desktop) {
-          padding: 0 200px;
-          bottom: 40px;
+          width: auto;
+          height: 500px;
+          margin-bottom: 95px;
         }
+      }
+    }
 
-        a {
-          color: black;
-        }
+    .text {
+      position: absolute;
+      bottom: 23px;
+      color: black;
+      font-size: 1em;
+      left: 0;
+      right: 0;
+      transition: 0.5s ease;
+
+      @media only screen and (min-width: $desktop) {
+        padding: 0 200px;
+      }
+
+      a {
+        color: black;
+      }
+
+      p {
+        margin: 5px;
       }
     }
 
@@ -459,16 +478,8 @@ h2 {
   }
 
   .dot-container {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 5px;
-
-    @media only screen and (min-width: $desktop) {
-      bottom: 10px;
-    }
-
-    .dot {
+    .dot,
+    .dots {
       cursor: pointer;
       height: 15px;
       width: 15px;

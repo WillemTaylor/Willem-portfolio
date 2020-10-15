@@ -3,19 +3,19 @@
     <footer class="footer">
       <div class="social-container">
         <a :href="fb" target="_blank">
-          <img class="fb" src="../assets/fb.png" />
+          <img class="fb" src="../assets/images/fb.png" />
         </a>
         <a :href="twitter" target="_blank">
-          <img class="twitter" src="../assets/twitter.png" />
+          <img class="twitter" src="../assets/images/twitter.png" />
         </a>
         <a :href="insta" target="_blank">
-          <img class="insta" src="../assets/insta.png" />
+          <img class="insta" src="../assets/images/insta.png" />
         </a>
         <a :href="linkedIn" target="_blank">
-          <img class="linked" src="../assets/linkedin.png" />
+          <img class="linked" src="../assets/images/linkedin.png" />
         </a>
         <a :href="github" target="_blank">
-          <img class="yt" src="../assets/github.png" />
+          <img class="yt" src="../assets/images/github.png" />
         </a>
       </div>
       <div class="footer-container">

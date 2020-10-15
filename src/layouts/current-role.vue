@@ -1,6 +1,6 @@
 <template>
-  <div id="experience">
-    <section class="about">
+  <div id="current-role">
+    <section class="about" style="padding-bottom: 30px;">
       <div>
         <h1>In my current role at Ocean Finance, my responsibilities include:</h1>
         <ul>
@@ -26,12 +26,15 @@
       <br />
       <br />
       <div>
-        <h1>Projects I've worked on at Ocean include:</h1>
+        <h1 style="margin-bottom: 30px;">Projects I've worked on at Ocean include:</h1>
         <p>
           Building a brand new 'carousel-style' application form for secured loans from the ground up. I decided to use the Vue.js framework, due to it's lovely VueX state management pattern, and Vue router. This allowed me to easily pass values across the forms fields to give the 'carousel' animation.
           <br />I also rewrote the blog pages for the site, which included URL redirects, as well as fun CSS animations.
         </p>
       </div>
+    </section>
+
+    <section id="work-projects" class="project">
       <div class="project">
         <div class="slideshow-container">
           <ocean-form />
@@ -40,25 +43,9 @@
           <a class="next" @click="plusSlides(1)">&#10095;</a>
 
           <div class="dot-container">
-            <span class="dot" @click="currentSlide(1)"></span>
-            <span class="dot" @click="currentSlide(2)"></span>
+            <span class="dots" @click="currentSlide(1)"></span>
+            <span class="dots" @click="currentSlide(2)"></span>
           </div>
-        </div>
-      </div>
-      <div>
-        <p>
-          <b>
-            Before this, I'd enrolled onto a 12 week full-stack coding bootcamp
-            (Northcoder's).
-          </b>
-          <br />During the course, I was taught an industry-led curriculum, and completed full-stack projects including 'NC-News': A fully responsive Reddit-style news board where users can vote and comment on different
-          articles. A RESTful API built with Node.js, SQL, Express.js and
-          front-end built in React.js.
-        </p>
-      </div>
-      <div class="project">
-        <div class="slideshow-container">
-          <nc-news />
         </div>
       </div>
     </section>
@@ -68,13 +55,11 @@
 <script>
 import OceanForm from "../components/ocean-form";
 import OceanBlog from "../components/ocean-blog";
-import NcNews from "../components/nc-news";
 
 export default {
   components: {
     OceanForm,
-    OceanBlog,
-    NcNews
+    OceanBlog
   },
   data() {
     return {
@@ -82,8 +67,8 @@ export default {
     };
   },
   mounted() {
-    let slides = document.getElementsByClassName("expSlides");
-    let dots = document.getElementsByClassName("dot");
+    let slides = document.getElementsByClassName("oceanSlides");
+    let dots = document.getElementsByClassName("dots");
 
     slides[this.slideIndex - 1].style.display = "block";
     dots[this.slideIndex - 1].className += " active";
@@ -96,8 +81,8 @@ export default {
       this.showSlides((this.slideIndex = n));
     },
     showSlides(n) {
-      let slides = document.getElementsByClassName("expSlides");
-      let dots = document.getElementsByClassName("dot");
+      let slides = document.getElementsByClassName("oceanSlides");
+      let dots = document.getElementsByClassName("dots");
 
       if (n > slides.length) {
         this.slideIndex = 1;
