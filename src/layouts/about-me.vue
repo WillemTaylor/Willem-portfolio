@@ -2,7 +2,7 @@
   <div id="about">
     <section class="about">
       <div>
-        <h1>I'm a hard working developer who is highly motivated, creative, relaiable and can work well independently or as part of a team.</h1>
+        <h1>I'm a hard working developer who is highly motivated, creative, reliable and can work well independently or as part of a team.</h1>
 
         <p>
           My
